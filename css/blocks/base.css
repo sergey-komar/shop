@@ -1,0 +1,40 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.section__blog{
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+@media (min-width:992px){
+    .section__blog{
+        padding-top: 70px;
+        padding-bottom: 45px;
+    }
+}
+.section__subscribe{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+@media (min-width:992px){
+    .section__subscribe{
+      padding-top: 45px;
+      padding-bottom: 100px;
+}
+
+
